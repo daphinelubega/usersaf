@@ -5,8 +5,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
-		crossorigin="anonymous">
+     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+     crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="./form.css">
 		<link rel="icon" href="./LOGO.png" type="image/gif" sizes="20x20">
@@ -14,7 +14,7 @@
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper" style="background-color: rgba(255, 124, 1, 0.507); background-image:  url(./convenient.png) no-repeat center fixed;">
+			<div id="wrapper">
 
 				<!-- Main -->
 					<div id="main">
@@ -28,21 +28,57 @@
 									</div>
 								</header>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<div class="row">
-												<div class="col">
-													<h1>Personal Information</h1>
-													<h5>Name:</h5>
-													<h5>Username:</h5>
-													<h5>Job Title:</h5>
-													<h5>Email:</h5>
-													<h5>Phone Number:</h5>
-													<h6></h6>
-												</div>
-											</div>
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Registered Clients</h1>
+									</header>
+									<div class="row">
+										<div class="col-8">
+											<div class="container">
+											<!-- creating table -->
+											<table class="table mt-4 overflow-x:auto;">
+											  <thead class="table-dark">
+												<tr>
+												  <th>Name</th>
+												  <th>Date of Registration</th>
+												  <th>Status</th>
+												  <th>Action</th>
+												</tr>
+											  </thead>
+											  <tbody>
+												<tr>
+												  <td>1</td>
+												  <td></td>
+												  <td></td>
+												  <td><a href="#" class="btn btn-outline-secondary btn-sm">
+													 Details <i></i>
+												  </a></td>
+												</tr>
+												<tr>
+												  <td>2</td>
+												  <td></td>
+												  <td></td>                         
+												  <td><a href="#" class="btn btn-outline-secondary btn-sm">
+													 Details <i></i>
+												  </a></td>
+												</tr>
+												<tr>
+												  <td>3</td>
+												  <td></td>
+												  <td></td>
+												  <td><a href="#" class="btn btn-outline-secondary btn-sm">
+													 Details <i></i>
+												  </a></td>
+												</tr>
+											
+											  </tbody>
+											</table>
+										  </div>
+										</div>
+									</div>
+									
+
 								</section>
 
 						</div>
@@ -67,9 +103,9 @@
 									</header>
 									<ul>
 										<li><a href="profile.html">Profile</a></li>
-										<li><a href="registeruser.html">Register User</a></li>
-										<li><a href="registeredclients.html">Registered Clients</a></li>
-										<li><a href="registeredusers.html">Registered Users</a></li>
+										<li><a href="registeruser.html">Register Users</a></li>
+                                        <li><a href="registeredclients.html">Registered Clients</a></li>
+                                        <li><a href="registeredusers.html">Registered Users</a></li>
 									</ul>
 									<div class="">
 										<a href="login.html" class="nav-link" style="padding-bottom: 20px;">
@@ -79,7 +115,7 @@
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; All rights reserved SafeBoda</p>
+									<p class="copyright">&copy;All rights reserved SafeBoda</p>
 								</footer>
 
 						</div>
